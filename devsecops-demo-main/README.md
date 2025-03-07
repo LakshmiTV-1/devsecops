@@ -1,3 +1,6 @@
+
+#####
+whenver devloper creates a commits or a pull requestwe have github workflows configures for the  repository within the github workflows we have multiple jobs such as unit testing job , static code analysis, build job, docker job update image static job each job have multiple steps for the example in docker job has multiple steps as vuilding  of image scanning  the build docker image with triy and upload the container image to  container registry in our case we using github container registry once  ci is done we use argocd for cd where argocd detects the continous changes in the deployment file or helm chart where a change is detected  it will the latest image tag and deploy that to kubernetes cluster..
 # DevSecOps Pipeline Implementation for Tic Tac Toe Game
 
 ![Screenshot 2025-03-04 at 7 16 48 PM](https://github.com/user-attachments/assets/7ed79f9c-9144-4870-accd-500085a15592)
